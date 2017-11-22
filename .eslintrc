@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "semi": ["error", "never"],
+    "object-curly-spacing": ["error", "never"],
+    "no-use-before-define": ["error", {"functions": false, "classes": true}],
+    "no-underscore-dangle": 0
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
