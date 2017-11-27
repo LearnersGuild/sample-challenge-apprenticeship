@@ -15,6 +15,7 @@ export function start() { // eslint-disable-line import/prefer-default-export
 
   app.use(ROOT_DIR, express.static('public'))
   app.use(bodyParser.urlencoded({extended: false}))
+  app.use(bodyParser.json())
 
   app.use(routes)
 
