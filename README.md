@@ -26,6 +26,10 @@ Use the following commands to set up and seed your database:
 1. Set up database tables from `schema.sql`: `$ npm run db:schema`
 1. Load seed data from `albums.sql`: `$ npm run db:seed`
 
+### Setting up your config
+
+Copy the file `.env.template` to the file `.env`, so that the config loads correctly
+
 ### Starting your development server
 
 Run the following command in the terminal:
@@ -48,13 +52,17 @@ Routing:
 - [ ] __20:__ Navigating to `/sign-up` loads the sign up page.
 
 Users can:
-- [ ] __20:__ Sign up for an account with a name, email and password.
+- [ ] __40:__ Sign up for an account with a name, email and password.
 - [ ] __20:__ Be redirected to their profile page (e.g. `/users/<USER ID>`) after signing up.
 
 Users CANNOT:
 - [ ] __10:__ Sign up without a name value
 - [ ] __10:__ Sign up without an email address value
 - [ ] __30:__ Sign up without an email that is already in use.
+
+Files to modify:
+- `src/routes/authentication.js`
+- `src/views/authentication/sign-up.ejs`
 
 ## Sign in
 
@@ -69,6 +77,11 @@ Users CANNOT:
 
 - [ ] __30:__ Sign in with an invalid email address and password combination.
 
+Files to modify:
+- `src/routes/authentication.js`
+- `src/views/authentication/sign-in.ejs`
+
+
 ## Profile
 
 Routing:
@@ -76,3 +89,8 @@ Routing:
 
 Users can:
 - [ ] __10:__ See their username and email
+- [ ] __30:__ Edit their username and email using AJAX. Updating their profile should NOT require a page refresh.
+
+Files to modify:
+- `src/routes/users.js`
+- `src/views/users/profile.ejs`

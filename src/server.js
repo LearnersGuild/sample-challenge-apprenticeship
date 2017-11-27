@@ -20,11 +20,11 @@ export function start() { // eslint-disable-line import/prefer-default-export
   app.use(routes)
 
   app.use((req, res) => {
-    res.status(404).render('not_found')
+    res.status(404).render('common/not_found')
   })
 
   app.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
-    res.status(404).render('error', {error: err})
+    res.status(404).render('common/error', {error: err})
   })
 
   app.listen(PORT, () => {

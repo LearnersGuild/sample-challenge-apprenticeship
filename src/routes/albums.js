@@ -9,13 +9,13 @@ const router = express.Router()
 
 router.get('/', (req, res, next) => {
   getAlbums()
-    .then(albums => res.render('index', {albums}))
+    .then(albums => res.render('albums/index', {albums}))
     .catch(next)
 })
 
 router.get('/:albumID', (req, res, next) => {
   getAlbumById(req.params.albumID)
-    .then(album => res.render('album', {album}))
+    .then(album => res.render('albums/album', {album}))
     .catch(next)
 })
 
