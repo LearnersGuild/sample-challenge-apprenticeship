@@ -94,3 +94,4 @@ Users can:
 Files to modify:
 - `src/routes/users.js`
 - `src/views/users/profile.ejs`
+- `public/script.js`
