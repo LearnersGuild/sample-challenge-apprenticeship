@@ -28,7 +28,8 @@ Use the following commands to set up and seed your database:
 
 ### Setting up your config
 
-Copy the file `.env.template` to the file `.env`, so that the config loads correctly
+Run the command in the terminal so that the config loads correctly
+`$ cp .env.template .env`
 
 ### Starting your development server
 
