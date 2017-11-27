@@ -53,7 +53,7 @@ Routing:
 
 Users can:
 - [ ] __40:__ Sign up for an account with a name, email and password.
-- [ ] __20:__ Be redirected to their profile page (e.g. `/users/<USER ID>`) after signing up.
+- [ ] __10:__ Be redirected to the home page (`/`) after signing up.
 
 Users CANNOT:
 - [ ] __10:__ Sign up without a name value
@@ -71,7 +71,7 @@ Routing:
 
 Users can:
 - [ ] __20:__ Sign in to an existing account with an email address and password.
-- [ ] __20:__ Be redirected to their profile page (e.g. `/users/<USER ID>`) after signing in.
+- [ ] __10:__ Be redirected to the home page (`/`) after signing in.
 
 Users CANNOT:
 
