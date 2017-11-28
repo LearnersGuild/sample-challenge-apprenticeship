@@ -31,6 +31,11 @@ Use the following commands to set up and seed your database:
 Run the command in the terminal so that the config loads correctly
 `$ cp .env.template .env`
 
+### Installing your dependencies
+
+Run the following command in the terminal:
+`$ npm install`
+
 ### Starting your development server
 
 Run the following command in the terminal:
