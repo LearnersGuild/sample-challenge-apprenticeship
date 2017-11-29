@@ -93,10 +93,10 @@ Files to modify:
 ## Testing
 
 Testing:
-- [ ] __30:__ Write a test for the `signIn` action using Mocha. This test should check that calling the `signIn` function adds a row in the database
+- [ ] __30:__ Write a test for the `signUp` action using Mocha. This test should check that calling the `signUp` function adds a row in the database
 
 Files to modify:
-- `test/actions/signIn.test.js`
+- `test/actions/signUp.test.js`
 
 
 ## Profile

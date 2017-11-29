@@ -1,8 +1,8 @@
 import '../env'
 import { expect } from 'chai';
-import { signIn } from '../../src/actions';
+import { signUp } from '../../src/actions';
 
-describe('function signIn ', () => {
+describe('function signUp ', () => {
   it('should create a new row in the users table', () => {
     // TODO: FIXME and write a real test
     expect(1).to.equal(2)
