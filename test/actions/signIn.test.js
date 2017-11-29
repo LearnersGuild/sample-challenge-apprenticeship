@@ -1,6 +1,6 @@
+import {expect} from 'chai'
 import '../env'
-import { expect } from 'chai';
-import { signIn } from '../../src/actions';
+import {signIn} from '../../src/actions'
 
 describe('function signIn ', () => {
   it('should create a new row in the users table', () => {

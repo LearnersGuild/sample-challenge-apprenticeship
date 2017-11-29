@@ -1,5 +1,13 @@
 <% include ../partials/header %>
 
-<!-- insert code here -->
+<h1>Sign In</h1>
+
+<pre> <%= warning %> </pre>
+
+<form class="sign-in" method="post" action="/sign-in">
+  <input type="email" name="email" placeholder="Email" required><br>
+  <input type="password" name="password" placeholder="Password" required><br>
+  <input type="submit">
+</form>
 
 <% include ../partials/footer %>
