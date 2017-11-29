@@ -16,6 +16,7 @@ src/
   db/                 # database client & utils
   routes/             # express routes
   views/              # html templates
+test/                 # test files for the source files
 ```
 
 ### Setting Up Your Database
@@ -63,6 +64,7 @@ Users CANNOT:
 
 Files to modify:
 - `src/routes/authentication.js`
+- `src/actions/signUp.js`
 - `src/views/authentication/sign-up.ejs`
 
 ## Sign in
@@ -81,12 +83,23 @@ Users CANNOT:
 Files to modify:
 - `src/routes/authentication.js`
 - `src/views/authentication/sign-in.ejs`
+- `src/actions/signIn.js`
+
+## Testing
+
+Testing:
+- [ ] __30:__ Write a test for the `signIn` action using Mocha. This test should check that calling the `signIn` function adds a row in the database
+
+Files to modify:
+- `test/actions/signIn.test.js`
 
 
 ## Profile
 
 Routing:
-- [ ] __20:__ Navigating to `/users/<USER ID>` loads the profile page.
+- [ ] __20:__ Navigating to `/users/<USER ID>` loads the profile page. The profile page has a button `Edit` which when clicked, navigates to the edit profile page.
+- [ ] __20:__ Navigating to `/users/<USER ID>/edit` loads the edit profile page.
+- [ ] __20:__ Sending a PUT request to `/users/<USER ID>` updates the profile of the user
 
 Users can:
 - [ ] __10:__ See their username and email

@@ -13,7 +13,7 @@ export function start() { // eslint-disable-line import/prefer-default-export
   app.set('view engine', 'ejs')
   app.set('views', path.join(__dirname, 'views'))
 
-  app.use(express.static(ROOT_DIR + '/public'))
+  app.use(express.static(`${ROOT_DIR}/public`))
   app.use(bodyParser.urlencoded({extended: false}))
   app.use(bodyParser.json())
 
