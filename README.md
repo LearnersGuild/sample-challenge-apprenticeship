@@ -65,7 +65,7 @@ Users can:
 Users CANNOT:
 - [ ] __10:__ Sign up without a name value
 - [ ] __10:__ Sign up without an email address value
-- [ ] __30:__ Sign up without an email that is already in use.
+- [ ] __30:__ Sign up with an email that is already in use.
 
 Files to modify:
 - `src/routes/authentication.js`
@@ -93,7 +93,7 @@ Files to modify:
 ## Testing
 
 Testing:
-- [ ] __30:__ Write a test for the `signUp` action using Mocha. This test should check that calling the `signUp` function adds a row in the database
+- [ ] __30:__ Write a test for the `signUp` action using Mocha. This test should check that calling the `signUp` function adds a row in the database.
 
 Files to modify:
 - `test/actions/signUp.test.js`
@@ -104,10 +104,10 @@ Files to modify:
 Routing:
 - [ ] __20:__ Navigating to `/users/<USER ID>` loads the profile page. The profile page has a button `Edit` which when clicked, navigates to the edit profile page.
 - [ ] __20:__ Navigating to `/users/<USER ID>/edit` loads the edit profile page.
-- [ ] __20:__ Sending a PUT request to `/users/<USER ID>` updates the profile of the user
+- [ ] __20:__ Sending a PUT request to `/users/<USER ID>` updates the profile of the user.
 
 Users can:
-- [ ] __10:__ See their username and email
+- [ ] __10:__ See their username and email.
 - [ ] __30:__ Edit their username and email using AJAX. Updating their profile should NOT require a page refresh.
 
 Files to modify:
