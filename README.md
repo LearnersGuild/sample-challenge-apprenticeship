@@ -58,6 +58,9 @@ Each requirement is assigned a point value. A fully complete requirement will ea
 Routing:
 - [ ] __20:__ Navigating to `/sign-up` loads the sign up page.
 
+Schema:
+- [ ] __x:__ Add a table `users` to the schema.sql file to handle their name, email, and password. Note: after completion of this spec you will need to re-run `$ npm run db:schema`
+
 Users can:
 - [ ] __40:__ Sign up for an account with a name, email and password.
 - [ ] __10:__ Be redirected to the home page (`/`) after signing up.
@@ -71,6 +74,7 @@ Files to modify:
 - `src/routes/authentication.js`
 - `src/actions/signUp.js`
 - `src/views/authentication/sign-up.ejs`
+- `src/data/schema.sql`
 
 ## Sign in
 
