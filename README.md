@@ -67,11 +67,6 @@ Users CANNOT:
 - [ ] __10:__ Sign up without an email address value
 - [ ] __30:__ Sign up without an email that is already in use.
 
-Files to modify:
-- `src/routes/authentication.js`
-- `src/actions/signUp.js`
-- `src/views/authentication/sign-up.ejs`
-
 ## Sign in
 
 Routing:
@@ -85,19 +80,10 @@ Users CANNOT:
 
 - [ ] __30:__ Sign in with an invalid email address and password combination.
 
-Files to modify:
-- `src/routes/authentication.js`
-- `src/views/authentication/sign-in.ejs`
-- `src/actions/signIn.js`
-
 ## Testing
 
 Testing:
 - [ ] __30:__ Write a test for the `signUp` action using Mocha. This test should check that calling the `signUp` function adds a row in the database
-
-Files to modify:
-- `test/actions/signUp.test.js`
-
 
 ## Profile
 
@@ -108,9 +94,4 @@ Routing:
 
 Users can:
 - [ ] __10:__ See their username and email
-- [ ] __30:__ Edit their username and email using AJAX. Updating their profile should NOT require a page refresh.
-
-Files to modify:
-- `src/routes/users.js`
-- `src/views/users/profile.ejs`
-- `public/script.js`
+- [ ] __30:__ Edit their username and email using AJAX. Updating their profile should NOT require a page refresh. Submitting the form on `/users/<USER ID>/edit` page asynchronously updates the profile information. The user remains on the edit page `/users/<USER ID>/edit`.
