@@ -45,7 +45,7 @@ Run the following command in the terminal:
 
 # Coding Challenge
 
-During the interview you will have 60 minutes to complete all the specs of the challenge.
+During the interview you will have 75 minutes to complete all the specs of the challenge.
 
 You'll be allowed to ask your interviewer clarifying questions and can use the internet to search for information as needed.
 
