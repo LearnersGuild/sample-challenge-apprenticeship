@@ -65,7 +65,7 @@ Users can:
 Users CANNOT:
 - [ ] __10:__ Sign up without a name value
 - [ ] __10:__ Sign up without an email address value
-- [ ] __30:__ Sign up without an email that is already in use.
+- [ ] __30:__ Sign up with an email that is already in use.
 
 ## Sign in
 
